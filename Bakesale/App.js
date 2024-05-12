@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <View style={styles.container}>
           {
-            this.state.deals.length > 0
+            this.state.deals = true
             ? <DealList deals = {this.state.deals}></DealList>
             : <Text style={styles.header}>Bakesale</Text>
           }
